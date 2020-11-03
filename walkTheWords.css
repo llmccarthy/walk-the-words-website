@@ -1,0 +1,167 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("assets/birchbarkfeatherd-1200.jpg");
+    background-repeat: repeat;
+}
+
+
+hr{
+    border-top: gray solid;
+    /* color: gray; */
+    z-index: 4;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: lightgray;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    color: green;
+    /* padding: 2px 4px 2px 4px; */
+    /* border: 1px solid gray; */
+    background-color: lightgray;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: lightgray;
+    background-color: green;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: green;
+    color: lightgray;
+  }
+
+
+/* To Do: Fix Scaling */
+.jumbotron {
+    max-width: 100%;
+    min-height: 450px;
+    background-size: cover;
+    vertical-align: bottom;
+    background-image: url("assets/wtwRock.PNG");
+    position: relative;
+}
+
+/* Handle Window Resizing */
+@media (min-width: 1150px) {
+    .jumbotron{
+        height: 600px;
+    }  
+}
+
+.container {
+    background-color: transparent;
+    padding: auto;
+}
+
+.containerContainer{
+    align-content: center;
+    max-width: 800px;
+    margin: auto;
+    padding: auto;
+    /* display: flex; */
+    justify-content: center;
+}
+
+/* #container {
+border: 2px dashed #444;
+height: 125px;
+text-align: justify;
+-ms-text-justify: distribute-all-lines;
+text-justify: distribute-all-lines;
+/* just for demo */
+/* min-width: 612px; */
+/* } */
+
+.button{
+    width: 100%;
+    height: auto;
+    color: green;
+    /* padding: 2px 4px 2px 4px; */
+    border: 1px solid gray;
+    background-color: lightgray;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;  
+    font-size: 25px;
+    text-align: center;
+    /* vertical-align: bottom; */
+
+    /* margin-bottom: 30px; */
+}
+
+.button:hover{
+    color: lightgray;
+    background-color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.background {
+    background: center center;
+    background-image: url("assets/wtwRock.PNG");
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+}
+
+.centerText{
+    margin: 5px;
+    text-align: center;
+}
+
+.covidDisclaimer{
+    bottom: 0;
+    position: absolute;
+}
+
+.semiTransparentBackground{  
+    background-color: rgba(255, 255, 255, .5);
+    /* background-color: rgba(100, 100, 100, .5); */
+    box-shadow: 0 0 15px 10px rgba(255, 255, 255, .5);
+}
+
+.jumbotronText{
+    width: 100%;
+    text-align: center;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    /* vertical-align: bottom; */
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.green{
+    color: green;
+}
+
+.bottom{
+    bottom: 0;
+    position: absolute;
+  }
